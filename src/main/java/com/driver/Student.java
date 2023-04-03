@@ -8,11 +8,10 @@ public class Student {
 
     private String teacherName;
 
-    public Student(String name, int age, double averageScore, String teacherName) {
+    public Student(String name, int age, double averageScore) {
         this.name = name;
         this.age = age;
         this.averageScore = averageScore;
-        this.teacherName= teacherName;
     }
 
     public String getTeacherName() {
